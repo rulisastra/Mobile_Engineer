@@ -1,0 +1,26 @@
+{ 
+    "excelso"   : {
+        "ProductID" : "Pd0m1",
+        "Kategori" : "Makanan",
+        "ProductName" : "Excelso",
+        "Quantity" : "1",
+        "Logo" : "excelso.png"
+    },
+
+    "breadlife" : {
+        "ProductID" : "Pd0m2",
+        "Kategori" : "Makanan",
+        "ProductName" : "Breadlife",
+        "Quantity" : "1",
+        "Logo" : "breadlife.png"
+    },
+    
+    "axis"      : {
+        "ProductID" : "Pd0p1",
+        "Kategori" : "Ponsel",
+        "ProductName" : "Axis",
+        "Quantity" : "1",
+        "Logo" : "axis.png"
+    }
+}
+}

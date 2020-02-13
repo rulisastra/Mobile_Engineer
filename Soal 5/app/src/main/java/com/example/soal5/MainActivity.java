@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.soal5.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
