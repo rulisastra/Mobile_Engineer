@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/beranda_menu"
+        android:title="@string/Beranda"
+        android:icon="@drawable/ic_home_blue"/>
+    <item
+        android:id="@+id/pesan_menu"
+        android:title="@string/Pesan"
+        android:icon="@drawable/ic_messege_grey"/>
+    <item
+        android:id="@+id/help_menu"
+        android:title="@string/Help"
+        android:icon="@drawable/ic_help_grey"/>
+    <item
+        android:id="@+id/hadiah_menu"
+        android:title="@string/Hadiah"
+        android:icon="@drawable/ic_gift_grey"/>
+    <item
+        android:id="@+id/akun_menu"
+        android:title="@string/Akun"
+        android:icon="@drawable/ic_profile_grey"/>
+
+</menu>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@android:color/blue" android:state_checked="true"/>
+    <item android:color="@color/colorPrimaryDark"/>
+</selector>

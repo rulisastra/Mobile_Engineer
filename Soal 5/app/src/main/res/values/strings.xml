@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Soal5</string>
+
+    <string name="Beranda">Beranda</string>
+    <string name="Pesan">Pesan</string>
+    <string name="Help">Help</string>
+    <string name="Hadiah">Hadiah</string>
+    <string name="Akun">Akun</string>
+</resources>
