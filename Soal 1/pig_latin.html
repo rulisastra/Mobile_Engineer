@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pigLatin</title>
+        <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+        <style>
+            body {
+    font-family: 'Asap Condensed', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+#transform{
+    margin: 10px;
+}
+        </style>
+    </head>
+    <body>
+        <input type="text" name="latin" id="latin"/>
+        <button id="transform">Ubah Kata</button>
+       <div id="pig"></div>
+       <div id="reverse"></div>
+        <script>
+            function pigLatin(str){
+                var vowel = str.match(/[aeiou]/);
+                var vowelPosition = str.indexOf(vowel);
+                var consonant = str.match(/[bcdfghjklmnpqrstvwxyz]/);
+                var consonantPosition = str.indexOf(consonant);
+                if (vowelPosition > 0){
+                    return str.slice(vowelPosition) + str.slice(0, vowelPosition) + 'yay';
+                    
+                }
+                else {
+                    return str + "ay"
+                }
+                
+    
+            }
+         var transform = document.getElementById('transform');
+         transform.addEventListener('click', function(){
+             var latin = document.getElementById("latin").value;
+             document.getElementById("pig").innerHTML = "Setelah di ubah, menjadi : " + pigLatin(latin);
+              document.getElementById("reverse").innerHTML = "Kata Awal : " + latin
+         })   
+        </script>
+    </body>
+</html>
